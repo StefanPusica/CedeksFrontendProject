@@ -1,0 +1,448 @@
+@media all and (max-width: $mobile){
+
+    .first-container{
+
+        nav{
+
+            .nav-items{
+                display: none;
+                position: absolute;
+                height: 100vh;
+                width: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.97);
+                z-index: 2;
+                text-align: center;
+                outline: none;
+
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 40px;
+                    margin-top: 60px;
+
+                    li{
+                        margin-bottom: 20px;
+                        a{
+                            font-size: 30px !important;
+                            color: #fff !important;
+                        }
+                    }
+                }
+        }
+
+            .burger{
+                display: block !important;
+                margin-top: 10px;
+            }
+
+            .close-nav-btn{
+                display: block;
+                z-index: 10;
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+  
+      .main-tehnologies{
+  
+        .card-Container{
+          flex-direction: column;
+          align-items: center;
+          width: 80%;
+    
+          
+    
+          .my-card{
+            width: 100% !important;
+            margin-bottom: 20px;
+            margin-left: 80px;
+            height: 70% !important;
+    
+            h2{
+              font-size: 15px !important;
+              margin-top: 30px !important;
+              margin-bottom: 20px !important;
+            }
+    
+            p{
+              font-size: 12px !important;
+              margin-bottom: 30px !important;
+            }
+          }
+        }
+      }
+    
+      .product-shots{
+      
+        h1 {
+          text-align: center;
+        }
+    
+        .carousel {
+          border-radius: 20px;
+          width: 100% !important;
+          height: 100%;
+          margin-top: 50px;
+    
+          .d-block {
+            border-radius: 30px;
+          }
+    
+          .carousel-control-prev {
+            position: absolute;
+            margin-left: 0px !important;
+    
+            .carousel-control-prev-icon{
+              width: 50px;
+              height: 50px;
+            }
+          }
+    
+          .carousel-control-next {
+            position: absolute;
+            margin-right: 0px !important;
+    
+            .carousel-control-next-icon{
+              width: 50px;
+              height: 50px;
+            }
+          }
+        }
+      }
+  
+      .testimonials-holder{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+  
+        .testimonials-left{
+  
+          img{
+            width: 350px !important;
+            height: 350px !important;
+          }
+        }
+  
+        .testimonials-right{
+          width: 100% !important;
+          margin-top: 50px !important;
+  
+          p{
+            text-align: center;
+          }
+        }
+      }
+
+      .form-holder{
+
+        .form-down{
+            flex-direction: column;
+
+            .form-left{
+                width: 100% !important;
+                margin-bottom: 50px;
+                margin-left: 10px;
+            }
+
+            .form-right{
+                width: 100% !important;
+                margin-left: -40px;
+
+            }
+        }
+      }
+  
+  
+    }
+  
+    .second-container{
+  
+      footer{
+        .footer-nav{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          margin-right: 35px;
+  
+          li{
+            margin-bottom: 5px;
+          }
+        }
+  
+        .social-network-footer{
+          margin-right: 25px;
+        }
+  
+        .footerText{
+          margin-right: 35px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  
+  
+  @media all and (max-width: $tablet){
+  
+    .first-container{
+      nav{
+        
+        .nav-items{
+                display: none;
+                position: absolute;
+                height: 100vh;
+                width: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.97);
+                z-index: 2;
+                text-align: center;
+                outline: none;
+                transition: 0.5s ease;
+
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 40px;
+                    margin-top: 60px;
+
+                    li{
+                        margin-bottom: 20px;
+                        a{
+                            font-size: 50px !important;
+                            color: #fff !important;
+                        }
+                    }
+                }
+        }
+
+        .burger{
+            display: block !important;
+            margin-top: 10px;
+        }
+        
+        .close-nav-btn{
+            display: block;
+            z-index: 10;
+            color: #fff;
+            font-size: 40px;
+        }
+      }
+      
+  
+      .hero-section{
+          flex-direction: column;
+  
+          .hero-left{
+              width: 100% !important;
+              text-align: center;
+              
+              .btn1{
+                  margin-bottom: 20px;
+              }
+          }
+  
+          .hero-right{
+              width: 100% !important;
+              justify-content: center;
+  
+              img{
+                  margin-top: 50px;
+                  width: 100% !important;
+              }
+          }
+      }
+  
+      .main-tehnologies{
+  
+        .card-Container{
+          flex-direction: column;
+          align-items: center;
+          width: 80%;
+  
+          
+  
+          .my-card{
+            width: 80% !important;
+            margin-bottom: 20px;
+            margin-left: 80px;
+          }
+        }
+      }
+  
+      .product-shots{
+      
+        h1 {
+          text-align: center;
+        }
+    
+        .carousel {
+          border-radius: 20px;
+          width: 100% !important;
+          height: 100%;
+          margin-top: 50px;
+    
+          .d-block {
+            border-radius: 30px;
+          }
+    
+          .carousel-control-prev {
+            position: absolute;
+            margin-left: 0px !important;
+    
+            .carousel-control-prev-icon{
+              width: 50px;
+              height: 50px;
+            }
+          }
+    
+          .carousel-control-next {
+            position: absolute;
+            margin-right: 0px !important;
+    
+            .carousel-control-next-icon{
+              width: 50px;
+              height: 50px;
+            }
+          }
+        }
+      }
+  
+      .testimonials-holder{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+  
+        .testimonials-left{
+  
+          img{
+            width: 350px !important;
+            height: 350px !important;
+          }
+        }
+  
+        .testimonials-right{
+          width: 100% !important;
+          margin-top: 50px !important;
+  
+          p{
+            text-align: center;
+          }
+        }
+      }
+
+      .form-holder{
+
+        .form-down{
+            flex-direction: column;
+
+            .form-left{
+                width: 100% !important;
+                margin-bottom: 50px;
+                margin-left: 30px;
+            }
+
+            .form-right{
+                width: 100% !important;
+                margin-left: -20px;
+
+            }
+        }
+
+        .btn-holder{
+            
+            button{
+                margin-top: 50px !important;
+            }
+        }
+      }
+      
+    }
+  
+    .second-container{
+      footer{
+        .footer-nav{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          margin-right: 35px;
+  
+          li{
+            margin-bottom: 5px;
+          }
+        }
+  
+        .social-network-footer{
+          margin-right: 25px;
+        }
+  
+        .footerText{
+          margin-right: 35px;
+          text-align: center;
+        }
+      }
+    }
+    
+      
+  }
+  
+  @media all and (max-width: $laptop){
+    
+    .first-container{
+      .hero-section{
+        flex-direction: column;
+    
+        .hero-left{
+            width: 100% !important;
+            text-align: center;
+            
+            .btn1{
+                margin-bottom: 20px;
+            }
+        }
+    
+        .hero-right{
+            width: 100% !important;
+            justify-content: center;
+    
+            img{
+                margin-top: 50px;
+                width: 100% !important;
+            }
+        }  
+     }
+  
+     .testimonials-holder{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+      .testimonials-left{
+  
+        img{
+          width: 350px !important;
+          height: 350px !important;
+        }
+      }
+  
+      .testimonials-right{
+        width: 100% !important;
+        margin-top: 50px !important;
+  
+        p{
+          text-align: center;
+        }
+      }
+    }
+    }
+  }
